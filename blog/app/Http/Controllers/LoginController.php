@@ -32,12 +32,12 @@ if(!empty($_POST['nombre']) && !empty($_POST['email']) && !empty($_POST['pass'])
     }
 
     // Validacion de usuarios
-    if($nombre == 'administrador' && $pass == 'administrador'){
-        header("Location:views/admin/admin.php");
+    if($nombre == 'autor' && $pass == 'autor'){
+        return view('roles.autor',compact('error'));
     }
 
-    elseif($pass == 'comprador' && $nombre == 'comprador'){
-        header("Location:views/comprador/productos.php");
+    elseif($pass == 'difusor' && $nombre == 'difusor'){
+        return view('roles.difusor',compact('error'));
     }else{
         $error = 'sesion';
     }
@@ -47,7 +47,7 @@ if(!empty($_POST['nombre']) && !empty($_POST['email']) && !empty($_POST['pass'])
 }
 
 if( $error != 'dato_exito'){
-  header("Location:views/login.php?error=$error");
+  return view('login',compact('error'));
 }
     }
 }

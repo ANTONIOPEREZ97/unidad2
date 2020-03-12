@@ -10,29 +10,27 @@
 
     <div class="contentlogin">
 
-    <?php
-    if(isset($_GET['error'])):
-        $error = $_GET['error'];
-        if($error == 'dato_exito'):
-            echo "<p><strong style='color:green'>Se inicio sesión correctamente</strong></p>";
-        endif;
-        if($error == 'error_dato'):
-            echo "<p><strong style='color:red'>Datos invalidos rellene correctamente el formulario</strong></p>";
-        endif;
-        if($error == 'nombre'):
-            echo "<p><strong style='color:red'>Ingresa un nombre correcto</strong></p>";
-        endif;
-        if($error == 'email'):
-            echo "<p><strong style='color:red'>Ingresa un email valido</strong></p>";
-        endif;
-        if($error == 'password'):
-            echo "<p><strong style='color:red'>Ingresa una contraseña valida</strong></p>";
-        endif;
-        if($error == 'sesion'){
-            echo "<p><strong style='color:red'>No eres un usuario registrado</strong></p>";
-        }
-    endif;
-    ?>
+
+    {{-- @if(isset($_GET['error']))
+        $error = $_GET['error']
+        @if($error == 'dato_exito')
+            <p><strong style='color:green'>Se inicio sesión correctamente</strong></p>
+        @endif
+        @if($error == 'error_dato')
+            <p><strong style='color:red'>Datos invalidos rellene correctamente el formulario</strong></p>
+        @endif
+        @if($error == 'nombre')
+            <p><strong style='color:red'>Ingresa un nombre correcto</strong></p>
+        @endif
+        @if($error == 'email')
+            <p><strong style='color:red'>Ingresa un email valido</strong></p>
+        @endif
+        @if($error == 'password')
+            <p><strong style='color:red'>Ingresa una contraseña valida</strong></p>
+        @endif
+        @if($error == 'sesion')
+            <p><strong style='color:red'>No eres un usuario registrado</strong></p>
+        @endif --}}
         <h1>Iniciar sesión</h1>
 
 
