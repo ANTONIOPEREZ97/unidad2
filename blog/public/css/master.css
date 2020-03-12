@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+nav{
+    border: solid 1px black;
+ /*Ocupa todo el ancho de la pantalla*/
+    height: 20%;
+}
+
+.container{
+    border: solid 1px blue;
+    width: 80%;
+    height: 550px;
+    float: right;
+}
+
+.sidebar{
+    width: 20%;
+    margin-left: 30px; 
+    float: left;
+    background: crimson;
+    height: 550px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    background: green;
+    height: 120px;
+    margin-top: 555px;
+}
