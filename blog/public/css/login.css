@@ -1,0 +1,91 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/fondo10.jpg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+    height: 100vh;
+}
+p{
+    text-align: center;
+}
+h1{
+    font-size: 16px;
+}
+.contentlogin{
+    
+	background: rgba(0,0,0,0.8);
+	box-shadow: 0 15px 25px rgba(0,0,0,0.8);
+	border-radius: 10px;
+	height: 460px;
+	width: 320px;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute; /*La propiedad position sirve para posicionar un elemento dentro de la página.*/
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px; /*espaciado interno 70 hacia arriba y 30 a los lados*/
+}
+.contentlogin h1{
+	margin: 0;
+	padding: 0 0 20px; /*para que tenga un pequeño espaciado hacia abajo*/
+	text-align: center;
+	font-size: 20px;
+}
+.contentlogin label{
+	margin: 0;
+	padding: 0; /*para quitarle los espaciados*/
+	font-weight: bold; /*para que este mas remarcado*/
+	display: block; /*para que este en una sola linea*/
+	text-align: center;
+}
+.contentlogin input{
+	width: 100%;
+	margin-bottom: 20px; /*modificar el espacio entre inputs*/ 
+}
+
+.contentlogin input[type="text"], .contentlogin input[type="password"], .contentlogin input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:white;
+    font-size: 16px;
+}
+
+.contentlogin input[type="submit"]{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #B80F22;
+	color: white;
+	font-size: 18px;
+    border-radius: 20px;
+   
+    /* margin-top: 50px; */
+}
+.vinculos a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px; /*linea de espaciado*/
+	color: gray;
+	text-align: center;
+	}
+.vinculos a:hover{
+	color:white;
+}
+.vinculos{
+	text-align: center;
+}
+.avatar{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%; /*para convertirlo en circulo*/
+	position: absolute; /*en una imagen sirve para que se ponga delante de todo*/
+	/*posiciones*/
+	top: -50px;
+	left: calc(50% - 50px);
+}
