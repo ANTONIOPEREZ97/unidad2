@@ -67,9 +67,9 @@
     </p>
 
     <!--/Featured news-->
-
     <hr>
-
+    <h2><a href="#" class="text-info">Publicaciones (Contenido)</a></h2>
+    <hr>
     <!--Small news-->
     <div class="row">
       <div class="col-md-3">
@@ -83,14 +83,19 @@
         </div>
       </div>
 
+    
       <!--Excerpt-->
       <div class="col-md-9">
+       
         <p class="dark-grey-text">
           <strong>19/03/2020</strong>
         </p>
+        
         <a>Lorem ipsum dolor sit amet
           <i class="fas fa-angle-right float-right"></i>
         </a>
+        <br>
+        <button type="button" class="btn btn-success">Publicado</button>
       </div>
 
     </div>
@@ -119,6 +124,8 @@
         <a>Soluta nobis est eligendi
           <i class="fas fa-angle-right float-right"></i>
         </a>
+        <br>
+        <button type="button" class="btn btn-danger">Sin publicar</button>
       </div>
 
     </div>
@@ -147,6 +154,8 @@
         <a>Voluptatem accusantium doloremque
           <i class="fas fa-angle-right float-right"></i>
         </a>
+        <br>
+        <button type="button" class="btn btn-success">Publicado</button>
       </div>
 
     </div>
@@ -190,6 +199,8 @@
     <!--/Featured news-->
 
     <hr>
+    <h2><a href="#" class="text-info">Publicaciones (Contenido)</a></h2>
+    <hr>
 
     <!--Small news-->
     <div class="row">
@@ -211,7 +222,9 @@
         </p>
         <a>Lorem ipsum dolor sit amet
           <i class="fas fa-angle-right float-right"></i>
-        </a>
+        </a> <br>
+        <button type="button" class="btn btn-success">Publicado</button>
+
       </div>
 
     </div>
@@ -240,6 +253,8 @@
         <a>Soluta nobis est eligendi
           <i class="fas fa-angle-right float-right"></i>
         </a>
+        <br>
+        <button type="button" class="btn btn-light">Pendiente</button>
       </div>
 
     </div>
@@ -268,6 +283,8 @@
         <a>Voluptatem accusantium doloremque
           <i class="fas fa-angle-right float-right"></i>
         </a>
+        <br>
+        <button type="button" class="btn btn-success">Publicado</button>
       </div>
 
     </div>

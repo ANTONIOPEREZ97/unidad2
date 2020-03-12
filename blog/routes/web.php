@@ -9,3 +9,7 @@ Route::get('login', function () {
 });
 
 Route::post('login-validate', 'LoginController@login')->name('login');
+
+Route::get('autor', function () {
+    return view('roles.autor');
+});
